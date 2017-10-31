@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,8 @@
     font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
  
   }
+=======
+>>>>>>> e817459db072b3b06eb3e75be38d1515c56e7773
 
 /*
  * Estilos de tu proyecto
@@ -18,6 +21,10 @@
      padding: 0;
      font-family: 'Montserrat', sans-serif;
  }
+
+.text-uppercase {
+    text-transform: uppercase;
+}
 
  header {
      background-color: #2f2a44;
@@ -171,3 +178,73 @@ input[type=text], select {
 */
 
 
+/*Segunda sección*/
+.second-section {
+width: 100%;
+}
+
+div.watch, div.good-thing {
+    margin-left: 50px;
+}
+
+div.june div.text-uppercase, p.june{
+    margin-right: 50px;
+    position: relative;
+    left: 1000px;
+
+}
+
+div.watch div h4, div.june div h4, div.good-thing div h4 {
+    font-size: 15px;
+    display: inline-block;
+}
+
+
+div.watch div h2, div.june div h2, div.good-thing div h2 {
+font-size: 30px;
+display: inline-block;
+}
+
+
+div.watch div p, div.june div p, div.good-thing div p {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 30px;
+    width: 20%;
+}
+
+div.watch-text {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+div.video {
+    display: inline;
+    position: relative;
+    left: 500px;
+    bottom: 160px;
+}
+
+div.video-june {
+    display: inline;
+    position: relative;
+    bottom: 345px;
+}
+
+div.video.good-thing {
+    position: relative;
+    bottom: 480px;
+}
+
+/*footer */
+
+footer {
+    width: 100%;
+    background-color: #333447;
+    color: #fff;
+}
+
+footer div.content {
+    width: 80%;
+}
