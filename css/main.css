@@ -11,6 +11,10 @@
      font-family: 'Montserrat', sans-serif;
  }
 
+.text-uppercase {
+    text-transform: uppercase;
+}
+
  header {
      background-color: #2f2a44;
      position: fixed;
