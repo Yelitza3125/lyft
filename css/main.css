@@ -52,6 +52,15 @@ nav.menu ul li#log-in {
     border-radius: 10px;
     font-size: 20px;
     margin-left: 10px;
+}
 
+nav.menu ul li:hover {
+    color: #ff00bf;
+    cursor: pointer;
+}
+
+nav.menu ul li#log-in:hover {
+    background-color: #fff;
+    color: #ff00bf;
 }
 
