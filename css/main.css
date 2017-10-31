@@ -1,12 +1,11 @@
-<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
  
   }
 
-=======
 /*
  * Estilos de tu proyecto
  */
@@ -72,5 +71,103 @@ nav.menu ul li#log-in:hover {
     background-color: #fff;
     color: #ff00bf;
 }
->>>>>>> cf2f0053e52fc45e8e89847fd0b5b8291f8fbdc2
+/*------------------------------------------*/
+.container{
+    background-image: url("../assets/images/hero.gif");
+    width: 100%;
+    margin-top: 120px;
+    height: 847px;
+    background-size: cover;
+    
+    
+}
+.box{
+    margin-left: 925px;
+    background-color: white;
+    height: 422px;
+    padding: 40px;
+    display: block;
+}
+.container .box h3{
+    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 45px;
+    font-weight:700;
+    color: #352384;
+    text-transform:uppercase;/*Transformamos el texto a mayuscula*/
+    
+}
+.container .box h4{
+    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight:700;
+    color: #35238465;
+    text-transform:uppercase;/*Transformamos el texto a mayuscula*/
+    padding: 10px;
+}
+input[type=text], select {
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: none;
+    
+   /* font-family: 'Lato', sans-serif;*/
+    line-height: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    outline-style: none;
+    border-bottom: 2px solid #ddd;
+    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    
+  }
+
+.container .box .button{
+    background-color:#ff00bf;
+    border-color:none;
+    border-radius: 5px;/*Borde radial del boton*/   
+    cursor: pointer;
+    float: left; 
+    color: white;
+    font-size:20px;
+    font-weight:700;
+    margin-top:50px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    display: block;
+}
+
+.row{
+    text-decoration: none;
+    font-size: 10px;
+    color: #ff00bf;
+    
+
+}
+.row:hover, .sign:hover{
+   
+    color: #c71a5c;
+}
+.box span{
+    font-size: 10px;
+}
+.box1{
+    color: white;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.titles h2{
+    
+    
+    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.titles{
+    margin-left: 177px;
+}
+/*
+.images{
+    width: 30%;
+}
+*/
+
 
